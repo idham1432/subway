@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: Arial;
 }
+body{
+  height: 3000px;
+}
 /* header */
 .header {
   display: flex;
@@ -90,8 +93,65 @@ ul li:hover {
   font-weight: bold;
   white-space: nowrap;
   cursor: pointer;
+  margin-bottom: 60px;
 }
 .button-menu-category-selected {
   background-color: #008938;
   color: white;
+}
+/* menu item */
+.menu-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-item-container {
+  height: 455px;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 18px;
+  transition: background-color 0.15s, color 0.15s;
+}
+.menu-item-container:hover {
+  background-color: #008938;
+  color: white;
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 243px;
+  
+}
+.image-menu-item {
+  width: 243px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.header-menu-item {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.description-menu-item {
+  height: 60px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.button-more-info {
+  background-color: #f2b700;
+  color: #00491e;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 24px;
+  cursor: pointer;
 }
