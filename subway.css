@@ -104,6 +104,7 @@ ul li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .menu-item-container {
   height: 455px;
@@ -146,6 +147,73 @@ ul li:hover {
   margin-bottom: 20px;
 }
 .button-more-info {
+  background-color: #f2b700;
+  color: #00491e;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+/* create a sub */
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-create {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.create-container {
+  background-color: #008938;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 120px;
+  border-radius: 20px;
+}
+.create-step-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.create-step-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 30px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00491e;
+  width: 56px;
+  height: 56px;
+  border-radius: 50px;
+  margin-bottom: 8px;
+}
+.icon-container-selected {
+  background-color: white;
+}
+.step-number {
+  font-size: 14px;
+  font-weight: 900;
+  color: white;
+}
+.step-header {
+  font-size: 32px;
+  font-weight: 900;
+  color: white;
+}
+.button-start-now {
   background-color: #f2b700;
   color: #00491e;
   border: none;
