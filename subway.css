@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: Arial;
 }
+/* header */
 .header {
   display: flex;
   align-items: center;
@@ -41,4 +42,24 @@ ul li:hover {
   padding: 15px;
   margin-left: 150px;
   cursor: pointer;
+}
+/* banner */
+.image-banner {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.slide {
+  display: flex;
+  justify-content: center;
+}
+.button-slide {
+  width: 64px;
+  height: 2px;
+  background-color: #000000;
+  opacity: 0.3;
+  border-radius: 5px;
+  border: none;
+}
+.button-slide-selected {
+  background-color: #008938;
 }
