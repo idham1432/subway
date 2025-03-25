@@ -51,6 +51,7 @@ ul li:hover {
 .slide {
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
 }
 .button-slide {
   width: 64px;
@@ -62,4 +63,30 @@ ul li:hover {
 }
 .button-slide-selected {
   background-color: #008938;
+}
+/* menu */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menu-heading {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.button-menu-category {
+  background-color: #ededed;
+  border: none;
+  border-radius: 23px;
+  padding: 10px 24px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button-menu-category-selected {
+  background-color: #008938;
+  color: white;
 }
