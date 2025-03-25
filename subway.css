@@ -76,6 +76,10 @@ ul li:hover {
   font-weight: 900;
   margin-bottom: 30px;
 }
+.menu-category {
+  display: flex;
+  flex-wrap: wrap;
+}
 .button-menu-category {
   background-color: #ededed;
   border: none;
@@ -84,6 +88,7 @@ ul li:hover {
   font-size: 14px;
   line-height: 20px;
   font-weight: bold;
+  white-space: nowrap;
   cursor: pointer;
 }
 .button-menu-category-selected {
